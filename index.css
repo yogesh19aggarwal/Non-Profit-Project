@@ -59,7 +59,7 @@ body, html{
 
 /* The issue box is starting*/
 .the-issue{
-    background: url('../assets/home/annie-spratt-135307-unsplash.png');
+    background: url('./assets/home/annie-spratt-135307-unsplash.png');
     padding: 2rem 1rem;
     width: 100%;
     background-repeat: no-repeat;
