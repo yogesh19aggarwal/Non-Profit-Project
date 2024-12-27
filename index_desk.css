@@ -1,0 +1,179 @@
+@media screen and (min-width: 57rem){
+    .navbar{
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+    }
+    .heading-menu{
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+    }
+    .nav-heading{
+        font-size: 0.7rem;
+        width: 30%;
+    }
+    .menu-options{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 1rem;
+        font-size: 0.7rem;
+    }
+    .donate-button-container{
+        width: 20%;
+    }
+
+    /* navbar completed*/
+
+    .the-issue{
+        background: url('../assets/home/annie-spratt-135307-unsplash@2x.png');
+        background-size: cover;
+        padding: 5rem;
+        width: 100%;
+    }
+    .container{
+        flex-direction: row-reverse;
+        justify-content: right;
+        padding: 0 5rem;
+    }
+    .issue-box{
+        left: -50%;
+        top: 2rem;
+        padding: 0.5rem;
+        margin: 0;
+        width: 20rem;
+    }
+    .bold-heading{
+        height: 2rem;
+        justify-content: center;
+    }
+    .issue-heading{
+        font-size: 1.3rem;
+        padding-top: 2.5rem;
+    }
+
+    /*Issue section completed*/
+
+    .action-box{
+        margin: 0 40%;
+    }
+
+    .container-action{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /*Action Section completed*/
+
+    .all-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 3rem;
+    }
+    
+    .card{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+        padding: 1rem;
+    }   
+    .card img{
+        grid-column: 1/2;
+        width: 100%;
+        justify-self: end;
+        margin-right: -2rem;
+    }
+    .what-do-content{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .what-do-heading-1{
+        font-size: 1.6rem;
+    }
+    .what-do-content p{
+        text-align: start;
+        align-self: start;
+        padding: 0;
+        margin-top: 1rem;
+    }
+    .read-button{
+        grid-column: 1/2;
+        justify-self: center;
+        margin: 0;
+    }
+
+    /* what do completed*/
+        
+    .hunger-issue{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: top;
+        background: url('./assets/home/Did\ you\ know\ background\ lap.png');
+        background-size: cover;
+        background-position: bottom;
+        padding: 3rem;
+    }
+
+    .hunger-heading{
+        width: 50%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .hunger-heading h1{
+        font-size: 4rem;
+    }
+
+    .hunger-cards{
+        margin: 0 10%;
+        width: 50%;
+    }
+
+    .hunger-did-head{
+        margin-left: 10%;
+        margin-right: 30%;
+    }
+
+/*Hunger Issue completed*/
+
+
+/*Stories Section started*/
+
+    .stories{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .image{
+        width: 100%;
+        padding: 0;
+        margin-right: 10%;
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+    .stories-black-block{
+        position: relative;
+        margin-top: 5%;
+        width: 100%;
+        margin-right: -5%;
+        padding: 0;
+        margin-left: 5%;
+    }
+
+    .stories-content{
+        padding: 2rem;
+    }
+
+    .stories-button{
+        margin-top: 1rem;
+        margin-right: 60%;
+        margin-left: 2%;
+    }
+
+}
