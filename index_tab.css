@@ -20,10 +20,11 @@
     .menu-options{
         flex-direction: row;
         justify-content: start;
+        align-items: center;
         padding: 0;
         width: 100%;
     }
-    .menu-options > p {
+    .menu-options p{
         margin-right: 1rem;
         margin-top: 0.5rem;
     }
@@ -101,12 +102,15 @@
         justify-content: center;
         align-items: top;
         background: url('./assets/home/Did\ you\ know\ background\ tab.png');
+        background-size: cover;
+        padding-left: 0;
     }
 
     .hunger-heading{
         width: 50%;
         margin-left: 10%;
         margin-top: 10%;
+        margin-right: 10%;
     }
 
     .hunger-cards{
@@ -248,5 +252,21 @@
 
     .subscribe-button{
         width: 30%;
+    }
+
+
+/*Subscribe section ended*/
+
+/*Footer is started*/
+
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .learn-footer{
+        grid-column: 2/3;
+    }
+    .footer h1{
+        grid-column: 3/4;
     }
 }

@@ -53,6 +53,10 @@
         padding-top: 2.5rem;
     }
 
+    .issue-heading h1{
+        font-size: 3rem;
+    }
+
     /*Issue section completed*/
 
     .action-box{
@@ -63,6 +67,9 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    .action-content p{
+        font-size: 1.3rem;
+    }
     /*Action Section completed*/
 
     .all-cards{
@@ -120,14 +127,18 @@
         margin-left: 10%;
         margin-top: 10%;
     }
-
+    
     .hunger-heading h1{
+        
         font-size: 4rem;
     }
 
     .hunger-cards{
-        margin: 0 10%;
-        width: 50%;
+        margin: 0 3%;
+        width: 100%;
+    }
+    .hunger-card h3{
+        font-size: 1.8rem;
     }
 
     .hunger-did-head{
@@ -176,12 +187,15 @@
         margin-left: 2%;
     }
 
+/*stories section completed*/
+
+/*action section started*/
+
     .action-image img{
         width: 100%;
         height: 100%;
-        margin-top: -5%;
+        margin-top: -8%;
     }
-
 
 /*Action section complete*/
 
@@ -197,4 +211,32 @@
         margin-right: 10%;
     }
 
+
+/*Subscribe section ended*/
+
+/*Footer is started*/
+
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .learn-footer{
+        grid-column: 4/5;
+        margin: 0;
+    }
+    .footer h1{
+        grid-column: 5/6;
+    }
+
+    .follow{
+        margin-left: 15%;
+    }
+
+    .border-line{
+        font-weight: bold;
+        border-bottom: 2px solid #ccc; 
+        padding-bottom: 5px; 
+        margin-bottom: 10px;
+        display: inline-block;
+    }
 }

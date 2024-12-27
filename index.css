@@ -3,6 +3,14 @@
     --button-background: #C1F7D5;
   }
 
+  
+*{
+  list-style: none;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .bold-heading{
     position: relative;
     background-color: var(--text-color);
@@ -11,32 +19,19 @@
     justify-content: center;
     color: white;
 }
-.read-button{
-    font-weight: bold;
-    border-radius: 1.5rem;
-    background-color: var(--button-background);
-    border: none;
-    padding: 1rem 2rem 1rem 2rem;
-    color: var(--text-color);
-}
-*{
-    list-style: none;
-    margin:0;
-    padding: 0;
-    text-decoration: none;
-    color:black;
-    font-weight: normal;
-    font-size: 16px;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    .read-button{
+        font-weight: bold;
+        border-radius: 1.5rem;
+        background-color: var(--button-background);
+        border: none;
+        padding: 1rem 2rem 1rem 2rem;
+        color: var(--text-color);
+    }
 body, html{
     width: 100%;
     overflow-x: hidden;
 }
+
 /* Navbar is starting*/
 .navbar{
     display: flex;
@@ -67,15 +62,24 @@ body, html{
     align-items: start;
     justify-content: center;
     font-size: 0.7rem;
+    cursor: pointer;
 }
-.menu-options > p{
+.menu-options p{
     margin-bottom: 0.5rem;
+}
+
+.menu-options a{
+    text-decoration: none;
+}
+.about-us{
+    color: var(--text-color);
 }
 .donate-button-container{
     width: 100%;
     margin: 0 10% 5% 10%;
 }
 .donate-button{
+    cursor: pointer;
     padding: 0.6rem;
     width: 80%;
     border-radius: 1.5rem;
@@ -115,9 +119,9 @@ body, html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2.3rem;
     background-color: white;
     color: var(--text-color);
+    padding: 2.3rem 2rem;
 }
 .issue-content h1{
     font-size: 1.5rem;
@@ -125,9 +129,9 @@ body, html{
     text-align: center;
 }
 .issue-content p{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-decoration: underline;
-    text-align: centers;
+    text-align: center;
 }
 
 /* The issue box is ended*/
@@ -236,6 +240,7 @@ body, html{
     color: white;
     font-family: flood-std;
     margin-bottom: 1rem;
+    font-size: 3rem;
 }
 
 .hunger-did-head{
@@ -268,6 +273,7 @@ body, html{
     grid-column: 1/3;
     align-self: center;
     font-size: 1.2rem;
+    grid-column: 1/4;
 }
 
 .hunger-card p{
@@ -283,7 +289,7 @@ body, html{
     grid-column: 4/5;
     grid-row: 1/2;
     padding: 1rem;
-    margin: 0rem 3rem 0 3rem;
+    margin: 1rem 2rem 1rem 45%;
     background-image: url('./assets/home/twitter.jpeg');
     background-repeat: no-repeat;
     background-position: center;
@@ -294,7 +300,7 @@ body, html{
     background-position: center;
     grid-column: 4/5;
     grid-row: 2/3;
-    margin: 0 3rem 0 3rem;
+    margin: 1rem 2rem 1rem 45%;
     padding: 1rem;
     align-self: start;
 }
@@ -340,7 +346,7 @@ body, html{
 .stories-content h4{
     text-align: center;
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .stories p{
@@ -450,4 +456,56 @@ body, html{
     border-radius: 2rem;
     padding: 0.5rem 1.5rem;
     border: none;
+}
+
+/*Subscribe section ended*/
+
+/*Footer is started*/
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 4em;
+    padding: 1rem;
+    color: var(--text-color);
+    margin-top: 2rem;
+}
+
+.footer h2{
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.list{
+    font-size: 0.8rem;
+}
+
+.list ul{
+    margin-bottom: 0.3rem;
+}
+
+.list ul:last-child{
+    margin-bottom: 0rem;
+}
+.list ul:first-child{
+    margin-bottom: 0.7rem;
+}
+
+.decoration ul{
+    text-decoration: underline;
+}
+.decoration ul:first-child{
+    text-decoration: none;
+}
+
+.footer h1{
+    font-family: flood-std;
+    grid-column: 2/3;
+    font-size: 2.5rem;
+    margin-top: -1rem;
+}
+
+.contact, .learn-footer{
+    margin-left: 10%;
 }
