@@ -13,6 +13,7 @@ This project is a responsive website built with **HTML** and **CSS**, designed u
 
 ## Folder Structure
 
+```plaintext
 ├── .git/ # Git version control folder
 ├── about-us/
 │ ├── aboutus-desk.css # CSS file for desktop view of "About Us" page
@@ -29,6 +30,7 @@ This project is a responsive website built with **HTML** and **CSS**, designed u
 ├── index.css # Base CSS file for home page
 ├── index.html # HTML file for home page
 └── readme.md # Documentation file (this file)
+```
 
 ## Usage
 
