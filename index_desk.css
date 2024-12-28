@@ -40,9 +40,9 @@
     .issue-box{
         left: -50%;
         top: 2rem;
-        padding: 0.5rem;
+        padding: 0.6rem;
         margin: 0;
-        width: 20rem;
+        width: 23rem;
     }
     .bold-heading{
         height: 2rem;
@@ -55,6 +55,10 @@
 
     .issue-heading h1{
         font-size: 3rem;
+    }
+
+    .issue-content h1{
+        font-size: 2rem;
     }
 
     /*Issue section completed*/

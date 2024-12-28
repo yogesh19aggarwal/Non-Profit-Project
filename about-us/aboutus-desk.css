@@ -1,0 +1,56 @@
+@media screen and (min-width: 57rem){
+    .navbar{
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+    }
+    .heading-menu{
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+    }
+    .nav-heading{
+        font-size: 0.7rem;
+        width: 30%;
+    }
+    .menu-options{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 1rem;
+        font-size: 0.7rem;
+    }
+    .donate-button-container{
+        width: 20%;
+    }
+
+/* navbar completed*/
+
+/* Issue section start */
+
+    .container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .issue-content{
+        position: relative;
+        width: 50%;
+        margin-left: 20%;
+        margin-bottom: -5rem;
+    }
+
+
+/*Issue section completed*/
+
+/* mission section started */
+
+.mission-white-box{
+    margin-left: -32%;
+    margin-right: 50%;
+}
+    .mission-grid-view{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

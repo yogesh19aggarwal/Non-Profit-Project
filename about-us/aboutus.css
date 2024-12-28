@@ -1,0 +1,189 @@
+:root {
+    --text-color: #354463;
+    --button-background: #C1F7D5;
+    --font: flood-std;
+}
+
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+body, html{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.bold-heading{
+    background-color: var(--text-color);
+    padding: 0.5rem 1.5rem;
+    color: white;
+}
+
+.white-box{
+    padding: 0.5rem 0.6rem;
+    font-size: 1rem;
+    background-color: white;
+    border: none;
+    color: var(--text-color);
+}
+
+/* Navbar is starting*/
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    color: var(--text-color);
+}
+
+.heading-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-heading{
+    padding: 1.2rem 0.7rem;
+    width: 55%;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+}
+.nav-heading a{
+    color: var(--text-color);
+}
+.menu-options{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+.menu-options p{
+    margin-bottom: 0.5rem;
+}
+
+.menu-options a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.donate-button-container{
+    width: 100%;
+    margin: 1rem 10% 5% 10%;
+}
+.donate-button{
+    cursor: pointer;
+    padding: 0.6rem;
+    width: 80%;
+    border-radius: 1.5rem;
+    border: none;
+    background: var(--button-background);
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+/* Navbar ended*/
+
+/* Issue section start */
+
+.the-issue{
+    background: url('../assets/about-us/annie-spratt-427339-unsplash.png');
+    padding: 2rem 1rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.issue-heading{
+    color: white;
+    font-size: 2.5rem;
+    font-family: var(--font);
+    margin-bottom: 2rem;
+}
+
+.issue-content{
+    display: flex;
+    margin-top: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: var(--text-color);
+    padding: 0rem 2.5rem 1rem 2.5rem;
+    text-align: center;
+}
+
+.issue-content h1{
+    font-size: 1.3rem;
+}
+
+.issue-box{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/*Issue section completed*/
+
+/* mission section started */
+
+.mission{
+    background-color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.mission-white-box{
+    margin-bottom: 1.5rem;
+}
+
+.mission h2{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.mission-grid-view{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    margin-top: 3rem;
+    row-gap: 2em;
+    column-gap: 1.5rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+}
+.icon{
+    object-fit: cover;
+    width: 20%;
+}
+.icon img{
+    width: 100%;
+}
+
+.card-heading{
+    margin-bottom: 0.5rem;
+}
+
+.card-para{
+    font-size: 0.875rem;
+}

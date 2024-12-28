@@ -1,0 +1,87 @@
+@media screen and (min-width: 29rem) {
+    .navbar{
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 1rem;
+    }
+    .heading-menu{
+        flex-direction: column;
+        width: 70%;
+        align-items: start;
+        margin-left: 0.5rem;
+    }
+    .nav-heading{
+        width: 100%;
+        padding: 0.8rem 0 0 0 ;
+
+    }
+    .menu-options{
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+    .menu-options p{
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+    }
+    .donate-button-container{
+        width: 30%;
+        margin: 0 0.5rem 0 0;
+    }
+    .donate-button{
+        width: 100%;
+    }
+
+    /* Navbar ended*/
+    
+    /* Issue section start */
+
+    .container{
+        padding: 1rem;
+    }
+    .issue-heading{
+        font-size: 3rem;
+    }
+
+    .issue-content{
+        padding-bottom: 2rem;
+    }
+
+    .issue-content h1{
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    .issue-box{
+        margin-left: -70%;
+    }
+
+/*Issue section completed*/
+
+/* mission section started */
+
+    .mission{
+        padding: 2rem 3rem;
+    }
+
+    .mission-white-box{
+        margin-left: -25%;
+        margin-right: 50%;
+    }
+
+    .mission h2{
+        font-size: 1.75rem;
+        text-align: left;
+    }
+
+    .mission-grid-view{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card-heading{
+        font-size: 1.375rem;
+    }
+}
