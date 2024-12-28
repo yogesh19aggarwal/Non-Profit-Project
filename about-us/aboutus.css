@@ -239,3 +239,49 @@ body, html{
 .person-details p{
     font-size: 0.875rem;
 }
+
+/* team section end */
+
+/* impact section start */
+
+.impact{
+    background: url('../assets/about-us/ian-macharia-509884-unsplash.png');
+    background-color: var(--text-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 2rem;
+    color: white;
+}
+
+.impact-white-box{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.impact h1{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.375rem;
+}
+
+.impact-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0.5rem;
+}
+
+.impact-card h1{
+    font-family: var(--font);
+    font-size: 2.75rem;
+}
+
+.impact-card h3{
+    margin-top: 0.5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 1rem;
+}
+

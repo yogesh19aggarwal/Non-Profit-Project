@@ -129,4 +129,26 @@
         padding: 0.5rem;
         text-align: left;
     }
+
+/* team section end */
+
+/* impact section start */
+
+    .impact-white-box{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .impact h1{
+        font-size: 2.25rem;
+    }
+    .impact-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .impact-card h1{
+        font-size: 4.5rem;
+    }
+
+    .impact-card h3{
+        font-size: 1.375rem;
+    }
 }
