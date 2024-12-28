@@ -68,6 +68,7 @@ body, html{
     justify-content: center;
     font-size: 0.7rem;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 .menu-options a{

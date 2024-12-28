@@ -84,4 +84,49 @@
     .card-heading{
         font-size: 1.375rem;
     }
+
+/*mission section end*/
+
+/* team section start */
+
+    .team-grid{
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+    .team-black-head{
+        margin-right: 68%;
+        margin-left: 3%;
+    }
+    .team-content{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+
+    .team-heading{
+        text-align: start;
+        font-size: 2.25rem;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .team-content p{
+        font-size: 1.1rem;
+        text-align: start;
+        width: 80%;
+    }
+
+    .team-card img{
+        height: 100%;
+    }
+
+    .person-details{
+        position: relative;
+        margin-top: -1.5rem;
+        margin-right: -5%;
+        margin-left: 1rem;
+        padding: 0.5rem;
+        text-align: left;
+    }
 }

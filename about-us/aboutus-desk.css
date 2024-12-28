@@ -46,11 +46,32 @@
 
 /* mission section started */
 
-.mission-white-box{
-    margin-left: -32%;
-    margin-right: 50%;
-}
+    .mission-white-box{
+        margin-left: -32%;
+        margin-right: 50%;
+    }
+
     .mission-grid-view{
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+/*mission section end*/
+
+/* team section start */
+
+    .team-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2rem;
+    }
+
+    .team-heading{
+        font-size: 2.75rem;
+        width: 55%;
+    }
+
+    .team-content p{
+        font-size: 1.25rem;
+        width:40%;
+        justify-self: center;
     }
 }

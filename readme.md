@@ -22,6 +22,8 @@ This project is a responsive website built with **HTML** and **CSS**, designed u
 │ └── aboutus.html # HTML file for "About Us" page
 ├── assets/ # Folder for images, fonts, and other static assets
 ├── donation/
+│ ├── donation-desk.css # CSS file for desktop view of  "Donation" page
+│ ├── donation-tab.css # CSS file for tablet view of "Donation" page
 │ ├── donation.css # CSS file for "Donation" page
 │ └── donation.html # HTML file for "Donation" page
 ├── .gitignore # Specifies files and folders to ignore in version control

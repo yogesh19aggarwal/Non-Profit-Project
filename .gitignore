@@ -1,0 +1,11 @@
+# IDE specific files
+.vscode/
+.idea/
+
+# Git-specific files
+.git/
+.gitignore
+
+# Build artifacts or deployment directories (if any)
+dist/
+build/
