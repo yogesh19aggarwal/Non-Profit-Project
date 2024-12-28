@@ -175,4 +175,34 @@
         display: none;
     }
 
+    /* subscribe section start*/
+
+    .subscribe{
+        padding: 3.5rem;
+    }
+
+    .email-input{
+        width: 70%;
+    }
+
+    .subscribe-button{
+        width: 30%;
+    }
+
+
+/*Subscribe section ended*/
+
+/*Footer is started*/
+
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .learn-footer{
+        grid-column: 2/3;
+    }
+    .footer h1{
+        grid-column: 3/4;
+    }
+
 }

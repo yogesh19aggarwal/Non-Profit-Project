@@ -125,4 +125,46 @@
     .action-card-3{
         display: flex;
     }
+
+
+/* subscribe section start*/
+
+    .subscribe{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .subscribe h1{
+        margin-bottom: 0;
+        margin-right: 10%;
+    }
+
+
+    /*Subscribe section ended*/
+
+    /*Footer is started*/
+
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .learn-footer{
+        grid-column: 4/5;
+        margin: 0;
+    }
+    .footer h1{
+        grid-column: 5/6;
+    }
+
+    .follow{
+        margin-left: 15%;
+    }
+
+    .border-line{
+        font-weight: bold;
+        border-bottom: 2px solid #ccc; 
+        padding-bottom: 5px; 
+        margin-bottom: 10px;
+        display: inline-block;
+    }
 }
