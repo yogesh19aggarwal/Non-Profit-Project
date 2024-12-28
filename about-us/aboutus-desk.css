@@ -113,4 +113,16 @@
     }
 
 
+/* impaction section completed */
+
+/* action section start */
+    .action-heading{
+        margin-top: 2rem;
+    }
+    .action-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .action-card-3{
+        display: flex;
+    }
 }
