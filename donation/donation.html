@@ -3,7 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/hdt7flo.css" />
+    <link rel="stylesheet" href="donation.css" />
+    <link rel="stylesheet" href="donation-tab.css" />
+    <link rel="stylesheet" href="donation-desk.css" />
     <title>Donation</title>
   </head>
-  <body></body>
+  <body>
+    <section id="header" class="header">
+      <a href="../index.html"
+        ><h3>
+          The Green <br />
+          Trees Initiative
+        </h3></a
+      >
+    </section>
+
+    <section id="form" class="main">
+      <h1>Give Hope to Those Who Need It Most</h1>
+
+      <div class="form-container">
+        <h2 class="heading">Your information</h2>
+
+        <form class="form">
+          <div class="name">
+            <label class="label"
+              >FIRST NAME
+              <input class="firstname" type="text" placeholder="First name"
+            /></label>
+
+            <label class="label"
+              >LAST NAME
+              <input class="lastname" type="text" placeholder="Last name"
+            /></label>
+          </div>
+
+          <div class="street">
+            <label class="label"
+              >STREET ADDRESS
+              <input
+                class="street-address"
+                type="text"
+                placeholder="Street address"
+            /></label>
+          </div>
+
+          <div class="city-state-zip">
+            <label class="label"
+              >CITY <input class="city" type="text" placeholder="City"
+            /></label>
+
+            <div class="select-group">
+              <label class="label" for="state">STATE</label>
+              <select id="state" class="cities">
+                <option value="delhi">Delhi</option>
+                <option value="maharashtra">Maharashtra</option>
+                <option value="rajasthan">Rajasthan</option>
+                <option value="karnataka">Karnataka</option>
+              </select>
+            </div>
+
+            <label class="label"
+              >ZIP CODE <input class="zip" type="number" placeholder="Zip"
+            /></label>
+          </div>
+
+          <label class="label"
+            >EMAIL ADDRESS<input
+              class="email"
+              type="email"
+              placeholder="Email address"
+          /></label>
+
+          <h2 class="heading">Payment information</h2>
+
+          <label class="label"
+            >CREDIT CARD NUMBER
+            <input
+              class="credit-card"
+              type="number"
+              maxlength="14"
+              placeholder="Credit card number"
+          /></label>
+
+          <div class="exp-code">
+            <div class="exp-date">
+              <label class="label" for="exp-mon">EXPIRATION</label>
+              <div class="exp-inputs">
+                <input
+                  id="exp-mon"
+                  class="exp-mon"
+                  type="number"
+                  min="01"
+                  max="12"
+                  aria-label="Expiration Month"
+                  placeholder="MM"
+                />
+                <input
+                  id="exp-year"
+                  class="exp-year"
+                  type="number"
+                  min="2024"
+                  max="2099"
+                  aria-label="Expiration Year"
+                  placeholder="YYYY"
+                />
+              </div>
+            </div>
+            <div class="sec-code">
+              <label class="label" for="sec">SECURITY CODE</label>
+              <input
+                id="sec"
+                class="sec"
+                type="number"
+                aria-label="Security Code"
+                placeholder="CVC"
+              />
+            </div>
+          </div>
+
+          <h2 class="heading click-donation-heading">
+            Click the button to confirm your donation of $10, recurring monthly.
+          </h2>
+
+          <div class="button">
+            <button type="submit" class="process-button">Process Button</button>
+            <a class="go-back" href="../index.html">Go back</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
 </html>

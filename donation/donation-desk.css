@@ -1,0 +1,20 @@
+@media screen and (min-width: 57rem){
+    .main{
+        flex-direction: row-reverse;
+        justify-content: end;
+    }
+
+    .main h1 {
+        width: 100%;
+        font-size: 4.5rem;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+
+    .form-container{
+        width: 120%;
+    }
+
+   
+}

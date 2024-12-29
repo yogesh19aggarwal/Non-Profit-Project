@@ -1,0 +1,49 @@
+@media screen and (min-width: 29rem) {
+
+    .header h3{
+        font-size: 1.375rem;
+    }
+
+    .main h1{
+        font-size: 2.75rem;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .firstname, .lastname{
+        width: 90%;
+        gap: 2rem;
+    }
+
+    .name{
+        gap: 3rem;
+    }
+
+    .exp-code{
+        gap: 4rem;
+    }
+
+    .exp-inputs{
+        gap: 2rem;
+    }
+
+    .click-donation-heading{
+        font-size: 1.75rem;
+        margin-right: 15%;
+    }
+
+    .button{
+        flex-direction: row-reverse;
+        align-items: end;
+        margin-top: 1rem;
+    }
+
+    .process-button{
+        width: 100%;
+    }
+    
+    .go-back{
+        width: 100%;
+        font-size: 1rem;
+    }
+}
