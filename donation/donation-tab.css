@@ -46,4 +46,17 @@
         width: 100%;
         font-size: 1rem;
     }
+    
+/*Footer is started*/
+
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .learn-footer{
+        grid-column: 2/3;
+    }
+    .footer h1{
+        grid-column: 3/4;
+    }
 }

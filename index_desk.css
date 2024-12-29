@@ -8,10 +8,12 @@
         flex-direction: row;
         align-items: center;
         width: 70%;
+        font-size: 1rem;
     }
     .nav-heading{
         font-size: 0.7rem;
         width: 30%;
+        font-size: 1rem;
     }
     .menu-options{
         flex-direction: row;
@@ -19,6 +21,9 @@
         justify-content: space-around;
         margin-left: 1rem;
         font-size: 0.7rem;
+    }
+    .menu-options p{
+        font-size: 1rem;
     }
     .donate-button-container{
         width: 20%;

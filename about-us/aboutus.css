@@ -427,6 +427,7 @@ body, html{
 
 /*Footer is started*/
 
+
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -442,12 +443,11 @@ body, html{
     justify-content: center;
 }
 
-.list{
-    font-size: 0.8rem;
-}
 
 .list ul{
     margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+    padding: 0;
 }
 
 .list ul:last-child{
