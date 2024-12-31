@@ -37,6 +37,7 @@ This project is a responsive website built with **HTML** and **CSS**, designed u
 ## Usage
 
 1. Clone the repository to your local machine using:
+
    ```bash
    git clone <https://github.com/yogesh19aggarwal/Non-Profit-Project>
    ```

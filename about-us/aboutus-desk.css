@@ -10,7 +10,6 @@
         width: 70%;
     }
     .nav-heading{
-        font-size: 0.7rem;
         width: 30%;
     }
     .menu-options{
@@ -18,7 +17,9 @@
         align-items: center;
         justify-content: space-around;
         margin-left: 1rem;
-        font-size: 0.7rem;
+    }
+    .menu-options p{
+        font-size: 1rem;
     }
     .donate-button-container{
         width: 20%;

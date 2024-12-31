@@ -1,15 +1,16 @@
 :root {
     --text-color: #354463;
     --button-background: #C1F7D5;
-  }
-
-  
+}
+ 
 *{
   list-style: none;
   margin:0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Common css */
 
 .bold-heading{
     position: relative;
@@ -28,6 +29,7 @@
     padding: 1rem 2rem 1rem 2rem;
     color: var(--text-color);
 }
+
 body, html{
     width: 100%;
     overflow-x: hidden;
@@ -53,8 +55,11 @@ body, html{
 .nav-heading{
     padding: 1.2rem 0.7rem;
     width: 55%;
-    font-size: 0.7rem;
     font-family: sans-serif;
+}
+
+.heading{
+    font-size: 1rem;
 }
 
 .nav-heading a{
@@ -67,7 +72,6 @@ body, html{
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    font-size: 0.7rem;
     cursor: pointer;
     font-size: 1rem;
 }
@@ -77,6 +81,7 @@ body, html{
     color: var(--text-color);
 }
 .menu-options p{
+    font-size: 0.8rem;
     margin-bottom: 0.5rem;
 }
 
