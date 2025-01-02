@@ -182,6 +182,7 @@
         padding-right: 1rem;
     }
     .action-content{
+        align-items: start;
         margin-top: 4rem;
     }
     .action-now h1{
