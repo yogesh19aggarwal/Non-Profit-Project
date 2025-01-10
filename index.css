@@ -176,6 +176,8 @@ body, html{
     margin-bottom: 0.3rem;
 }
 
+
+
 /*action section ended */ 
 
 .what-do{
@@ -226,11 +228,12 @@ body, html{
     padding-top: 2rem;
     flex-direction: column;
     align-items: center;
+    justify-self: start;
 }
 
 .what-do-content p{
     text-align: center;
-    padding: 1rem 3rem 1.5rem 3rem;
+    padding: 1rem 1rem 1.5rem 0rem;
     /* grid-row: 2/4; */
 }
 
@@ -265,6 +268,7 @@ body, html{
     margin-left: 20%;
     margin-bottom: -2rem;
     margin-right: 20%;
+    max-width: 10rem;
 }
 
 .hunger-button{
@@ -438,6 +442,116 @@ body, html{
     font-weight: bold;
     margin-bottom: 3rem;
     padding: 1rem;
+}
+
+
+.save-future{
+    width: 100%;
+    padding: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#283652;
+    color: white;
+}
+
+.save-future>.container{
+    width: 100%;
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.save-future>.container>.heading{
+    width: 100%;
+}
+
+.save-future>.container>.heading>h2{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100%;
+    font-size: 3rem;
+    font-family: 'flood-std';
+    font-weight: 500;
+}
+
+.save-future>.container>.box{
+    width: 95%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+
+.save-future>.container>.first>.img{
+   background: url(https://assets.website-files.com/5bfeef7b147a62e932311b5c/5bfef6d96e7fb715536adf7d_tree-planting%402x.png);
+   background-size: cover;
+   height: 220px;
+}
+
+.save-future>.container>.second>.img{
+    background: url(https://assets.website-files.com/5bfeef7b147a62e932311b5c/5bfef6ce485801332b9f5bea_meeting%402x.png);
+    background-size: cover;
+    height: 390px;
+}
+
+.save-future>.container>.box>.img{
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.save-future>.container>.box>.para{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.save-future>.container>.box>.para>.top{
+    width:150px;
+    height:45px;
+    position: relative;
+    top: -22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: white;
+    color: #283652;
+    font-size: 1.1rem;
+}
+
+.save-future>.container>.box>.para>.bottom{
+    width: 125px;
+    height: 45px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #C1F7D5;
+    color: #283652;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
+    font-weight: 700;
+    border-radius: 22.5px;
+}
+
+.save-future>.container>.box>.para>h4{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.save-future>.container>.box>.para>p{
+    font-size: 1rem;
+    text-align: center;
+    
 }
 
 /*Action section complete*/

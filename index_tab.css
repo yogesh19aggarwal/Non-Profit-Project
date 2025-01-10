@@ -1,9 +1,9 @@
-@media screen and (min-width: 29rem) {
+@media screen and (min-width: 29rem ){
     .navbar{
         flex-direction: row;
         align-items: center;
         width: 100%;
-        padding: 1rem;
+        padding: 2rem;
     }
     .heading-menu{
         flex-direction: column;
@@ -39,8 +39,9 @@
 
     /*Issue section start*/
     .the-issue{
-        background: url('../assets/home/annie-spratt-135307-unsplash@2x.png');
-        background-size: contain;
+        background: url('./assets/about-us/issueTab.png');
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .issue-box{
         margin: 0 35%;
@@ -70,7 +71,7 @@
 
     .what-do{
         align-items: start;
-        padding: 2rem 4rem 0rem 4rem;
+        padding: 2rem 2rem 0rem 2rem;
     }
     .what-do-heading{
         text-align: start;
@@ -78,23 +79,107 @@
     }
     .card{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
         row-gap: 1rem;
         padding: 1rem;
+        column-gap: 1rem;
     }   
     .card img{
         grid-column: 1/2;
         align-self: center;
     }
+
+    .heading-content{
+        width: 100%;
+        justify-self: left;
+        font-size: 1.5rem;
+    }
+
+    .para-content{
+        width: 100%;
+    }
+
+    .what-do-heading-1{
+        margin: 0;
+        text-align: left;
+    }
+    .para-content p{
+        text-align: left;
+    }
     .what-do-content{
-        grid-column: 2/4;
+        grid-column: 2/3;
         grid-row: 1/3;
+        text-align: start;
+        justify-self: start;
+        /* max-width: 20rem; */
+    }
+
+    .what-do-button{
+        height: 2.5rem;
+        padding: 0 1rem;
+    }
+    .save-future>.container{
+        max-width: 660px;
+    }
+
+    .save-future>.container>.heading{
+        width: 95%;
+    }
+    .save-future>.container>.heading>h2{
+        text-align: start;
+        font-size: 2.75rem;
+        line-height: 120%;
+    }
+
+    .save-future>.container>.box{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0%;
+    }
+    
+    .save-future>.container>.second{
+        flex-direction: row-reverse;
+    }
+
+    .save-future>.container>.box>.img{
+        width: 50%;
+        height: 285px;
+    }
+
+    .save-future>.container>.box>.para{
+        width: 50%;
+        align-items: flex-start;
+    }
+
+    .save-future>.container>.box>.para>.top{
+        top: 0;
+    }
+
+    .save-future>.container>.box>.para>h4{
+        font-size: 2rem;
+        line-height: 100%;
+        margin:30px 0px;
+        text-align: start;
+    }
+
+    .save-future>.container>.box>.para>p{
+        text-align: start;
+    }
+
+    .save-future>.container>.first>.para{
+        padding-left: 5%;
+    }
+
+    .save-future>.container>.second>.para{
+        padding-right: 5%;
     }
     .read-button{
         grid-column: 1/2;
         justify-self: end;
-        margin: 0;
     }
+
+   
 
     /* what do completed*/
 
@@ -110,7 +195,7 @@
 
     .hunger-heading{
         width: 50%;
-        margin-left: 10%;
+        margin-left: 6%;
         margin-top: 10%;
         margin-right: 10%;
     }
@@ -121,7 +206,7 @@
 
     .hunger-did-head{
         margin-left: 10%;
-        margin-right: 30%;
+        margin-right: 0%;
     }
 
     /*Hunger section completed*/
@@ -129,7 +214,7 @@
     /*stories Section started */
 
     .stories{
-        padding: 2rem;
+        padding-right: 2rem;
     }
     
     .image{
@@ -241,12 +326,13 @@
     }
 
 
+
 /*Action section complete*/
 
 /* subscribe section start*/
 
     .subscribe{
-        padding: 3.5rem;
+        padding: 3.5rem 2rem;
     }
 
     .email-input{
@@ -264,6 +350,7 @@
 
     .footer{
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem 2rem;
     }
 
     .learn-footer{

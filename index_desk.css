@@ -33,13 +33,12 @@
     .the-issue{
         background: url('../assets/home/annie-spratt-135307-unsplash@2x.png');
         background-size: cover;
-        padding: 5rem;
+        padding: 3rem;
         width: 100%;
     }
     .container{
         flex-direction: row-reverse;
-        justify-content: right;
-        padding: 0 5rem;
+        justify-content: left;
     }
     .issue-box{
         left: -50%;
@@ -78,23 +77,31 @@
     .action-content p{
         font-size: 1.3rem;
     }
+
+    .take-action{
+        padding: 2rem 4rem;
+    }
     /*Action Section completed*/
 
+    .what-do{
+        padding: 2rem 2rem 0 4rem;
+    }
     .all-cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 3rem;
+        width: 100%;
     }
     
     .card{
         display: grid;
         grid-template-columns: 1fr;
-        row-gap: 1rem;
-        padding: 1rem;
+        row-gap: 0rem;
+        max-width: 20rem;
     }   
     .card img{
         grid-column: 1/2;
-        width: 100%;
+        width: 110%;
         justify-self: end;
         margin-right: -2rem;
     }
@@ -112,9 +119,13 @@
         margin-top: 1rem;
     }
     .read-button{
-        grid-column: 1/2;
-        justify-self: center;
+        /* justify-self: center; */
+    }
+    .what-do-button{
         margin: 0;
+        grid-column: 1/2;
+        margin-top: 1rem;
+        justify-self: start;
     }
 
     /* what do completed*/
@@ -122,17 +133,17 @@
     .hunger-issue{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: start;
         align-items: top;
         background: url('./assets/home/Did\ you\ know\ background\ lap.png');
         background-size: cover;
         background-position: bottom;
-        padding: 3rem;
+        padding: 4rem 0rem;
     }
 
     .hunger-heading{
         width: 50%;
-        margin-left: 10%;
+        /* margin-left: 0%; */
         margin-top: 10%;
     }
     
@@ -164,6 +175,7 @@
         flex-direction: row-reverse;
         align-items: center;
         padding-left: 0;
+        padding-right: 0;
     }
 
     .image{
@@ -173,7 +185,7 @@
     }
 
     .image img{
-        width: 100%;
+        width: 115%;
     }
 
     .stories-black-block{
@@ -205,6 +217,72 @@
         margin-top: -8%;
     }
 
+
+    .save-future{
+        padding: 70px 25px;
+    }
+    .save-future>.container{
+        max-width: 1140px;
+    }
+
+    .save-future>.container>.heading{
+        width: 95%;
+    }
+
+    .save-future>.container>.heading>h2{
+        text-align: start;
+        font-size: 4.5rem;
+        line-height: 120%;
+    }
+
+    .save-future>.container>.box{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+    }
+    
+
+    .save-future>.container>.second{
+        flex-direction: row-reverse;
+    }
+
+    .save-future>.container>.box>.img{
+        width: 50%;
+        height: 585px;
+    }
+
+    .save-future>.container>.box>.para{
+        width: 50%;
+        align-items: flex-start;
+        height: 100%;
+    }
+
+    .save-future>.container>.box>.para>.top{
+        top: 0;
+    }
+
+    .save-future>.container>.box>.para>h4{
+        font-size: 2.8rem;
+        line-height: 100%;
+        text-align: start;
+        padding: 25px 0px;
+        margin: 0;
+    }
+
+    .save-future>.container>.box>.para>p{
+        text-align: start;
+        font-size: 1.2rem;
+        line-height: 140%;
+    }
+
+    .save-future>.container>.first>.para{
+        padding-left: 10%;
+    }
+
+    .save-future>.container>.second>.para{
+        padding-right: 10%;
+    }
 /*Action section complete*/
 
 /* subscribe section start*/

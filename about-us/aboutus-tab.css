@@ -3,7 +3,7 @@
         flex-direction: row;
         align-items: center;
         width: 100%;
-        padding: 1rem;
+        padding: 1rem 2rem;
     }
     .heading-menu{
         flex-direction: column;
@@ -40,7 +40,7 @@
     /* Issue section start */
 
     .container{
-        padding: 1rem;
+        padding: 1.5rem;
     }
     .issue-heading{
         font-size: 3rem;
@@ -65,11 +65,7 @@
 
     .mission{
         padding: 2rem 3rem;
-    }
-
-    .mission-white-box{
-        margin-left: -25%;
-        margin-right: 50%;
+        align-items: start;
     }
 
     .mission h2{
@@ -157,6 +153,10 @@
 
 /* action section start */
 
+    .take-action{
+        padding: 2.5rem;
+    }
+    
     .take-action h1{
         text-align: left;
         width: 80%;
@@ -178,7 +178,7 @@
     /* subscribe section start*/
 
     .subscribe{
-        padding: 3.5rem;
+        padding: 2.5rem;
     }
 
     .email-input{
@@ -196,6 +196,7 @@
 
     .footer{
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 2.5rem;
     }
 
     .learn-footer{
