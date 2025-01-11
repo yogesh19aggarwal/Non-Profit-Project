@@ -36,6 +36,8 @@
     }
 
     .issue-content{
+        max-height: 20rem;
+        max-width: 32rem;
         position: relative;
         width: 50%;
         margin-left: 20%;
@@ -131,6 +133,9 @@
         display: flex;
     }
 
+    .arrow-image{
+        top:6rem;
+    }
 
 /* subscribe section start*/
 

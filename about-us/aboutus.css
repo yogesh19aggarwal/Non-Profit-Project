@@ -309,6 +309,24 @@ body, html{
     padding: 2rem;
     color: white;
     background-color: var(--text-color);
+    position: relative;
+}
+.arrow-image{
+    position: absolute;
+    border-radius: 50%;
+    background: #C1F7D5;
+    height: 3rem;
+    width: 3rem;
+    right: 1rem;
+    top: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.arrow-image img{
+    object-fit: cover;
+    width: 70%;
 }
 
 .take-action h1{
